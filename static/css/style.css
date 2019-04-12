@@ -1,0 +1,221 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+
+img {
+    border-radius: 12px;
+
+}
+
+.navbar {
+    height: 20px;
+
+}
+
+#bootstrap-overrides table {
+    border: transparent;
+
+}
+
+.btn {
+    height: 30px;
+}
+
+.navbar {
+    height: 35px;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.nav-item {
+    height: 30px;
+}
+
+#endTurnButton {
+    background-color: red;
+}
+
+#player {
+    position: absolute;
+    bottom: -12px;
+    left: 28%;
+    text-align: center;
+}
+
+#playername {
+    height: 5px;
+    width: 40px;
+}
+
+#table {
+    margin-top: 15%;
+    margin-left: 30%;
+    position: absolute;
+    text-align: center;
+}
+
+#graveyard img {
+    height: 250px;
+    width: 150px;
+    vertical-align: middle;
+    border-radius: 12px;
+
+}
+
+#cardZoom {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 1200px;
+    top: -400px;
+    border-radius: 20px;
+    border: 0 solid transparent;
+    border-collapse: collapse;
+
+}
+
+#cardZoom {
+    border-radius: 12px;
+
+}
+
+#deck img {
+    height: 250px;
+    width: 150px;
+    vertical-align: middle;
+    border-radius: 12px;
+
+}
+
+#player #blues img {
+    height: 80px;
+    width: 60px;
+}
+
+#player #role img {
+    height: 80px;
+    width: 160px;
+}
+
+#player #HP img {
+    height: 80px;
+    width: 160px;
+}
+
+#player #playerHand img {
+    height: 120px;
+    width: 100px;
+}
+
+#enemy1Role img {
+    height: 100px;
+    width: 100px;
+}
+
+#enemy1HP img {
+    height: 100px;
+    width: 150px;
+}
+
+#enemy1Blues img {
+    height: 100px;
+    width: 60px;
+}
+
+#enemy1Hand img {
+    height: 120px;
+    width: 80px;
+}
+
+#enemy2Role img {
+    height: 90px;
+    width: 120px;
+}
+
+#enemy2HP img {
+    height: 90px;
+    width: 150px;
+}
+
+#enemy2Blues img {
+    height: 90px;
+    width: 60px;
+}
+
+#enemy2Hand img {
+    height: 110px;
+    width: 80px;
+}
+
+#enemy3Role img {
+    height: 100px;
+    width: 100px;
+}
+
+#enemy3HP img {
+    height: 100px;
+    width: 150px;
+}
+
+#enemy3Blues img {
+    height: 100px;
+    width: 60px;
+}
+
+#enemy3Hand img {
+    height: 120px;
+    width: 80px;
+}
+
+
+#enemy1 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    float: left;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: -7%;
+}
+
+#enemy2 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    float: top;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 28%;
+    border: 0;
+}
+
+#enemy2Name {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#enemy3 {
+    border: 0 solid transparent;
+    border-collapse: collapse;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    float: right;
+    text-align: center;
+    margin-top: 20%;
+    margin-right: -5%;
+}
