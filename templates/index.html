@@ -1,8 +1,17 @@
 {% extends 'layout.html' %}
-{% block body %}
+{% block head %}
+
+<script src="{{ url_for('static', filename='js/api.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/dom.js') }}" defer></script>
+
+{% endblock %}
 
 
+{% block content %}
 
+<p id="header" class="h1">Star Wars universe planets</p>
+<div id="menu">menu</div>
+<div id="table">table</div>
 
 
 {% endblock %}
