@@ -1,8 +1,7 @@
 {% extends 'layout.html' %}
 {% block head %}
 
-<script src="{{ url_for('static', filename='js/api.js') }}" defer></script>
-<script src="{{ url_for('static', filename='js/dom.js') }}" defer></script>
+<script type="module" src="{{ url_for('static', filename='js/api.js') }}"></script>
 
 {% endblock %}
 
@@ -10,8 +9,12 @@
 {% block content %}
 
 <p id="header" class="h1">Star Wars universe planets</p>
-<div id="menu">menu</div>
-<div id="table">table</div>
+<div>
+    <button type="button" id="btn-previous">Previous</button>
+    <button type="button" id="btn-next">Next</button>
+</div>
+<div id="loading">Table is Loading...</div>
+<table class="table table-dark" id="table"></table>
 
 
 {% endblock %}
